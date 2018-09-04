@@ -12,6 +12,13 @@
 
 // Your code :
 
+const sign = (number) => {
+  if (number === 0) {
+    return 0
+  }
+  return number > 0 ? 1 : -1
+}
+
 //* Begin of tests
 const assert = require('assert')
 
@@ -24,3 +31,5 @@ assert.strictEqual(sign(10), 1)
 assert.strictEqual(sign(0), 0)
 assert.strictEqual(sign(132), 1)
 // End of tests */
+
+module.exports = {sign}

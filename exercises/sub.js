@@ -8,6 +8,8 @@
 
 // Your code :
 
+const sub = (number, numberToSubstract) => number - numberToSubstract
+
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

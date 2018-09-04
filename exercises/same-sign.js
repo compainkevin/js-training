@@ -9,6 +9,15 @@
 
 // Your code :
 
+const sign = (number) => {
+  if (number === 0) {
+    return 0
+  }
+  return number > 0 ? 1 : -1
+}
+
+const sameSign = (number, otherNumber) => sign(number) === sign(otherNumber)
+
 //* Begin of tests
 const assert = require('assert')
 

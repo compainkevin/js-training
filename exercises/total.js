@@ -6,6 +6,7 @@
  *
  */
 
+const total = (listOfNumber) => listOfNumber.reduce((sum, number) => sum + number, 0)
 
 //* Begin of tests
 const assert = require('assert')

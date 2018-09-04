@@ -11,6 +11,8 @@
 
 // Your code :
 
+const max = (number, otherNumber) => number > otherNumber ? number : otherNumber
+
 //* Begin of tests
 const assert = require('assert')
 
