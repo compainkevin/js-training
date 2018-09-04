@@ -9,6 +9,8 @@
 
 // Your code :
 
+const getLength = (iterable) => iterable.length
+
 //* Begin of tests
 const assert = require('assert')
 
