@@ -17,5 +17,5 @@ assert.strictEqual(escapeStr.includes("'"), true)
 assert.strictEqual(escapeStr.includes('"'), true)
 assert.strictEqual(escapeStr.includes('`'), true)
 assert.strictEqual(escapeStr.includes('/'), true)
-assert.strictEqual(escapeStr.includes('\\'), true)
+assert.strictEqual(escapeStr.includes('\'), true)
 // End of tests */
